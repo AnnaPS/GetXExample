@@ -14,13 +14,7 @@ class HomePage extends StatelessWidget {
             body: Center(
                 // Creo otro getbuilder con un id para solo actualizar el widget
                 //de text en vez de todo el home
-                child: ListViewUsers()),
-            floatingActionButton: FloatingActionButton(
-              onPressed: () {
-                controller.increment();
-              },
-              child: Icon(Icons.add),
-            ),
+                child: Container()),
           );
         });
   }
