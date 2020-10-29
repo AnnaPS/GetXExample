@@ -9,7 +9,7 @@ class UserRepositoryImpl extends UserRepositoryInterface {
     try {
       final Response response = await UserApi.dio.get(
           'https://reqres.in/api/users',
-          queryParameters: {"page": page, 'delay': 3});
+          queryParameters: {"page": page, "delay": 6});
 
       return (response.data['data'] as List)
           .map((data) => UserResponse.fromJson(data))

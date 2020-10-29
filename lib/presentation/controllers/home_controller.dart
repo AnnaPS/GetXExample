@@ -1,4 +1,3 @@
-import 'package:GetXExample/data/api/UserApi.dart';
 import 'package:GetXExample/domain/response/UserResponse.dart';
 import 'package:GetXExample/domain/useCase/user_use_case.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';

@@ -1,5 +1,4 @@
 import 'package:GetXExample/presentation/controllers/home_controller.dart';
-import 'package:GetXExample/presentation/pages/home_page_wigets/home_label.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

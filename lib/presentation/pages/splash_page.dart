@@ -11,8 +11,11 @@ class SplashPage extends StatelessWidget {
       init: SplashController(),
       builder: (_) {
         return Scaffold(
+          backgroundColor: Colors.black,
           body: Center(
-            child: CircularProgressIndicator(),
+            child: Center(
+              child: FlutterLogo(size: 100),
+            ),
           ),
         );
       },

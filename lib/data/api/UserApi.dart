@@ -1,5 +1,4 @@
 // Singleton class for connect an api rest
-import 'package:GetXExample/domain/response/UserResponse.dart';
 import 'package:dio/dio.dart';
 
 class UserApi {
